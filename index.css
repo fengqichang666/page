@@ -1,5 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     padding: 30px 0;
+}
+p{
+    margin-bottom: 0;
 }
 .btn-br0{
     border-radius: 0.25rem 0 0 0.25rem;
@@ -8,7 +15,7 @@ body{
 .btn-bl0{
     border-radius: 0 0.25rem 0.25rem 0 ;
 }
-.form-control{
+header .form-control{
     border-radius: 0;
 }
 .fs24{
@@ -29,8 +36,9 @@ nav{
 .welcome{
     color: #555;
 }
-main{
-    padding: 0 100px;
+.okr{
+    margin-top: -20px;
+    padding: 0 80px;
 }
 .okr-card{
     width: 290px;
@@ -39,9 +47,6 @@ main{
     flex-shrink: 0;
     margin-right: 40px;
     margin-top: 30px;
-}
-.okr-card:nth-child(4n){
-    margin-right: 0;
 }
 .okr-card input{
     background: #ddd;
@@ -86,6 +91,28 @@ main{
     font-size: 32px;
     line-height:215px;
 }
+.todolist .form-control{
+    display:inline-block;
+    background-color:transparent;
+}
+.todolist-input{
+    width:800px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.show-todo{
+    width:670px;
+    color: rgb(168, 14, 14);
+    word-break: break-all;
+}
+.border-none{
+    border: none;
+}
+.time{
+    width: 130px;
+    font-size: 12px;
+    color: #666;
+}
 .w255{
     width: 255px;
 }
@@ -97,4 +124,10 @@ main{
 }
 .none{
     display: none;
+}
+.pl80{
+    padding-left: 80px;
+}
+.ml8{
+    margin-left: 8px;
 }
