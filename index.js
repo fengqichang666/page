@@ -2,7 +2,7 @@
  * @Author: 冯琦昌 2309997549@qq.com
  * @Date: 2022-08-20 14:26:08
  * @LastEditors: 冯琦昌 2309997549@qq.com
- * @LastEditTime: 2022-08-25 21:33:00
+ * @LastEditTime: 2022-08-25 21:40:35
  * @FilePath: \page\index.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -188,7 +188,6 @@ function clearToDoList(){
     let res = confirm("确定清空所有TODOLIST？")
     if (res) {
         localStorage.removeItem('TODOLIST')
-        clearToDoList()
     }
 }
 //清空所有
